@@ -197,30 +197,30 @@ body{
 }
 .textHappynewyear .box-span:nth-child(1) span::after{
     position: absolute;
-    content: 'Chúc';
+    content: 'A';
     transform: rotate(-45deg);
     font-family: 'Water Brush', cursive;
-    font-size: 40px;
+    font-size: 35px;
     color: #ffe100;
     animation: textHappy1 4s linear infinite;
 }
 @keyframes textHappy1{
     0%{
-        content: 'Chúc';
+        content: 'A';
     }
     33.333%{
-        content: 'Vạn';
+        content: 'Chúc';
     }
     66.6667%{
-        content: 'An';
+        content: 'Diệu';
     }
     100%{
-        content: 'Chúc';
+        content: 'A';
     }
 }
 .textHappynewyear .box-span:nth-child(2) span::after{
     position: absolute;
-    content: 'Mừng';
+    content: 'Di';
     transform: rotate(-45deg);
     font-family: 'Water Brush', cursive;
     font-size: 35px;
@@ -229,62 +229,62 @@ body{
 }
 @keyframes textHappy2{
     0%{
-        content: 'Mừng';
+        content: 'Di';
     }
     33.333%{
-        content: 'Sự';
+        content: 'Mừng';
     }
     66.6667%{
-        content: 'Khang';
+        content: 'Âm';
     }
     100%{
-        content: 'Mừng';
+        content: 'Di';
     }
 }
 .textHappynewyear .box-span:nth-child(3) span::after{
     position: absolute;
-    content: 'Năm';
+    content: 'Đà';
     transform: rotate(-45deg);
     font-family: 'Water Brush', cursive;
-    font-size: 40px;
+    font-size: 35px;
     color: #ffe100;
     animation: textHappy3 4s linear infinite;
 }
 @keyframes textHappy3{
     0%{
-        content: 'Năm';
+        content: 'Đà';
     }
     33.333%{
-        content: 'Như';
+        content: 'Năm';
     }
     66.6667%{
-        content: 'Thịnh';
+        content: 'Tâm';
     }
     100%{
-        content: 'Năm';
+        content: 'Đà';
     }
 }
 .textHappynewyear .box-span:nth-child(4) span::after{
     position: absolute;
-    content: 'Mới';
+    content: 'Phật';
     transform: rotate(-45deg);
     font-family: 'Water Brush', cursive;
-    font-size: 40px;
+    font-size: 35px;
     color: #ffe100;
     animation: textHappy4 4s linear infinite;
 }
 @keyframes textHappy4{
     0%{
-        content: 'Mới';
+        content: 'Phật';
     }
     33.333%{
-        content: 'Ý';
+        content: 'Mới';
     }
     66.6667%{
-        content: 'Vượng';
+        content: 'Nguyện';
     }
     100%{
-        content: 'Mới';
+        content: 'Phật';
     }
 }
 .box-slider_img1{
@@ -1137,7 +1137,7 @@ body{
 }
 .cat img{
     width: 190px;
-    margin-top: -5rem;
+    margin-top: -2rem;
 }
 .box-rim{
     position: absolute;
@@ -1368,7 +1368,7 @@ body{
     height: 370px;
     background: #fff;
     transform: rotate(-35deg) skewX(20deg) scale(0);
-    border: 4px solid rgb(255, 255, 0);
+    border: 4px solid rgb(60, 255, 0);
     box-shadow: 0 0 10px rgb(0, 0, 0),
                 0 0 30px rgb(0, 0, 0, 0.5);
     transition: 1s;
@@ -1379,7 +1379,7 @@ body{
     height: 284px;
     background: #fff;
     transform: rotate(-35deg) skewX(20deg) scale(0);
-    border: 4px solid rgb(255, 255, 0);
+    border: 4px solid rgb(60, 255, 0);
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.5),
                 0 0 20px rgb(0, 0, 0, 0.1);
 }
@@ -1387,7 +1387,7 @@ body{
     width: 250px;
     height: 250px;
     background-color: #fff;
-    border: 4px solid rgb(255, 255, 0);
+    border: 4px solid rgb(60, 255, 0);
     z-index: 100;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.5),
                 0 0 20px rgb(0, 0, 0, 0.1);
@@ -2133,3 +2133,4 @@ div#a {
         top: -600px;
     }
  }
+ 
